@@ -1,12 +1,11 @@
 type Alumni = {
 	name: string;
+  affiliation: string;
+  cavasWork: string;
+  currentWork: string;
+  impact: string;
+  linkedin: string;
   image?: string;
-	roleAtCavas: string;
-	duration: string;
-	currentRole: string;
-	company: string;
-	description: string;
-  linkedin?: string;
 };
 
 type AlumniCardProps = {
@@ -26,29 +25,23 @@ export default function AlumniCard({ alumni }: AlumniCardProps) {
         <h2 className="text-lg font-semibold text-gray-900">
           {alumni.name}
         </h2>
-        <p className="text-sm text-gray-500">
-          {alumni.roleAtCavas}
-        </p>
       </div>
     </div>
 
-    <p className="mt-1 text-sm text-gray-500">{alumni.duration}</p>
+    {/* Affiliation */}
+    <p className="text-sm text-gray-500">{alumni.affiliation}</p>
 
-    {/* Divider */}
-    <div className="my-4 h-px bg-gray-200" />
+    {/* Work at CAVAS */}
+    <p className="mt-2 text-sm text-gray-600">{alumni.cavasWork}</p>
 
-    {/* Current role */}
-    <p className="text-sm text-gray-700">
-      <span className="font-medium">Now:</span> {alumni.currentRole}
+    {/* Current Work */}
+    <p className="mt-2 text-sm text-gray-700">
+      <span className="font-medium">Currently:</span> {alumni.currentWork}
     </p>
 
-    <p className="text-sm text-gray-700">
-      <span className="font-medium">Company:</span> {alumni.company}
-    </p>
-
-    {/* Description */}
-    <p className="mt-5 text-sm leading-relaxed text-gray-600">
-      {alumni.description}
+    {/* Impact */}
+    <p className="mt-3 text-sm text-gray-600 italic">
+      "{alumni.impact}"
     </p>
 
     <a
