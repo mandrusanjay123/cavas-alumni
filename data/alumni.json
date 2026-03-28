@@ -2,8 +2,10 @@
   {
     "name": "Sanjay Mandru",
     "affiliation": "UB CSE MS Student",
-    "cavasWork": "Worked on Autoware and Lincoln MKZ integration (Feb 2025 – Mar 2026)",
-    "currentWork": "Software Engineer II at Microsoft working on distributed systems",
+    "role": "Research Assistant",
+    "duration": "Feb 2025 – Mar 2026",
+    "work": "Integrated Autoware with ROS2-based distributed systems and deployed autonomous workflows on a Lincoln MKZ platform",
+    "current": "Software Engineer II at Microsoft working on distributed systems",
     "impact": "CAVAS experience helped me understand real-world system integration and improved my problem-solving during interviews",
     "linkedin": "https://www.linkedin.com/in/sanjay-kumar-mandru/",
     "image": "/images/sanjay.jpeg"

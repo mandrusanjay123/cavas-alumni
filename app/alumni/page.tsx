@@ -12,11 +12,8 @@ export default function AlumniPage() {
       <h1 className="text-5xl font-semibold tracking-tight text-gray-900">
         CAVAS Labs Alumni
       </h1>
-      <p className="mt-2 text-sm text-gray-500">
-        Built and maintained by CAVAS Labs alumni community
-      </p>
       <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-        Discover where our alumni are today - across industry, research and academia.
+        Discover where our alumni are today - across industry, researchand academia.
       </p>
     </div>
 
@@ -25,7 +22,7 @@ export default function AlumniPage() {
         href="https://docs.google.com/forms/d/e/1FAIpQLSeqpWM3NlOJtaHIlLpJ0U34o-wIQK0kVtHiKI1Uh64uL7YyWw/viewform"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-6 py-3 rounded-lg bg-black text-white text-sm font-medium hover:bg-gray-800 transition shadow-sm"
+        className="px-6 py-3 rounded-lg bg-black text-white text-sm font-medium hover:bg-gray-800 transition"
       >
         Submit Your Profile
       </a>
@@ -42,16 +39,18 @@ export default function AlumniPage() {
       )}
 
       {/* Grid Section */}
-      <div className="max-w-6xl grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {alumniData.map((alumni, index) => (
-          <AlumniCard key={index} alumni={alumni} />
-        ))}
+      <div className="max-w-5xl mx-auto mt-10 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {alumniData.map((alumni, index) => (
+            <AlumniCard key={index} alumni={alumni} />
+          ))}
+        </div>
       </div>
 
       {/* Where Alumni Work Section */}
      <div className="mt-20 text-center">
         <h2 className="text-xl font-semibold text-gray-800 mb-6">
-          Our alumni are contributing to
+          Our alumni are working in
         </h2>
 
         <div className="flex justify-center gap-8 flex-wrap text-gray-600 text-sm">
