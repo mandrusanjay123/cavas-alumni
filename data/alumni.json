@@ -9,16 +9,5 @@
     "impact": "CAVAS experience helped me understand real-world system integration and improved my problem-solving during interviews",
     "linkedin": "https://www.linkedin.com/in/sanjay-kumar-mandru/",
     "image": "/images/sanjay.jpeg"
-  },
-  {
-  "name": "Test User",
-  "affiliation": "UB Robotics Student",
-  "role": "Research Assistant",
-  "duration": "2023 – 2024",
-  "work": "Worked on LiDAR calibration and ROS2 pipelines",
-  "current": "Graduate Student at Stanford",
-  "impact": "Learned real-world system integration and debugging",
-  "linkedin": "https://linkedin.com",
-  "image": "/images/test.jpeg"
-}
+  }
 ]
