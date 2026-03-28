@@ -16,7 +16,7 @@ type AlumniCardProps = {
 
 export default function AlumniCard({ alumni }: AlumniCardProps) {
 	return (
-    <article className="w-full h-full bg-white rounded-xl border border-gray-200 p-5 shadow-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
+    <article className="w-full h-full flex flex-col bg-white rounded-xl border border-gray-200 p-5 shadow-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
       {/* Top */}
       <div className="flex items-center gap-3">
         <img
@@ -64,14 +64,16 @@ export default function AlumniCard({ alumni }: AlumniCardProps) {
       </div>
 
       {/* Link */}
-      <a
-        href={alumni.linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-5 text-sm font-medium text-blue-600 hover:underline"
-      >
-        View LinkedIn →
-      </a>
+      <div className="mt-auto pt-3">
+        <a
+          href={alumni.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-sm font-medium text-blue-600 hover:underline"
+        >
+          View LinkedIn →
+        </a>
+      </div>
     </article>
   );
 }
