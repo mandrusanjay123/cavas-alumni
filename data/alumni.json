@@ -4,10 +4,83 @@
     "affiliation": "UB CSE MS Student",
     "role": "Research Assistant",
     "duration": "Feb 2025 – Mar 2026",
+    "sortDate": "2026-03",
     "work": "Integrated Autoware with ROS2-based distributed systems and deployed autonomous workflows on a Lincoln MKZ platform",
     "current": "Software Engineer II at Microsoft working on distributed systems",
     "impact": "CAVAS experience helped me understand real-world system integration and improved my problem-solving during interviews",
     "linkedin": "https://www.linkedin.com/in/sanjay-kumar-mandru/",
     "image": "/images/sanjay.jpeg"
+  },
+  {
+    "name": "Anirudh Jayanthi",
+    "affiliation": "PhD student at UB's autonomous driving research lab (CAVAS)",
+    "role": "PhD Research Assistant",
+    "duration": "2017 – 2023",
+    "sortDate": "2023-12",
+    "work": "Worked on NS3 network sim component of a 5-in-1 connected autonomous vehicle simulator (2017-2018); worked on GNSS/RTK, ROS and autoware middleware of autonomous Lincoln MKZ (2018-2021); and integrated smart infrastructure and cooperative perception systems (2019-2023)",
+    "current": "Assistant Professor at Wayne State University",
+    "impact": "Provided hands-on experience with perception algorithms and real-time software integration within a full autonomous driving stack, demonstrating how to translate research into production-oriented software.",
+    "linkedin": "https://www.linkedin.com/in/anirudh-jrs/",
+    "image": "/images/IMG_20220213_224953 (3) - Anirudh Jayanthi.jpg"
+  },
+  {
+    "name": "Daniel Vadranapu",
+    "affiliation": "UB MS Student",
+    "role": "Graduate Research Assistant",
+    "duration": "Aug 2023 – Feb 2025",
+    "sortDate": "2025-02",
+    "work": "Worked extensively on the Lincoln platform, contributing to real-world AV system development and co-authored a research paper with Professor Chunming Qiao",
+    "current": "Robotics Software Engineer at General Motors",
+    "impact": "Helped build a strong understanding of end-to-end autonomous vehicle systems and provided real-world context that improved the ability to discuss practical systems during interviews.",
+    "linkedin": "https://www.linkedin.com/in/daniel-vadranapu/",
+    "image": "/images/DV - Daniel Vadranapu.png"
+  },
+  {
+    "name": "Foad Hajiaghajani Memar (Foad)",
+    "affiliation": "PhD student at UB CSE",
+    "role": "PhD Researcher",
+    "duration": "2020 – 2024",
+    "sortDate": "2024-12",
+    "work": "Studied the security and robustness of perception systems in autonomous vehicles",
+    "current": "Software Engineer at iDrive Inc. focusing on building world models for L2+ autonomous driving systems",
+    "impact": "Significantly strengthened fundamentals in AV security and helped secure interview opportunities, ultimately leading to a full-time role at iDrive Inc.",
+    "linkedin": "https://www.linkedin.com/in/foadhajiaghajani/",
+    "image": "/images/Fo_UBCard_2_edited - Foad Hajiaghajani.jpeg"
+  },
+  {
+    "name": "Jakye Amos",
+    "affiliation": "High School Student at City Honors",
+    "role": "Research Intern",
+    "duration": "Summer 2023",
+    "sortDate": "2023-08",
+    "work": "Worked on Olli autonomous shuttle integration",
+    "current": "Graduating senior Computer Science major from Case Western Reserve University and 3x Amazon intern",
+    "impact": "Being part of something so complex and rigorous at a young age allowed me to understand what it took to be a cog in something much bigger than myself.",
+    "linkedin": "https://www.linkedin.com/in/jakyeamos/",
+    "image": "/images/Jakye.png"
+  },
+  {
+    "name": "DeeKay Goswami",
+    "affiliation": "UB MS Robotics Student",
+    "role": "Graduate Research Assistant",
+    "duration": "Sept 2023 – Aug 2024",
+    "sortDate": "2024-08",
+    "work": "Worked on integrating Autoware (especially Drive-By-Wire) on Lincoln with all ROS2 nodes",
+    "current": "AD/ADAS Perception Software Engineer at LUCID MOTORS INC working on computer vision and localization problems",
+    "impact": "Hands-on learning on the Lincoln platform exposed real-world complexities that simulations often miss, specifically regarding hardware-software integration.",
+    "linkedin": "https://www.linkedin.com/in/itsthedeekay/",
+    "image": "/images/IMG_2151 - DeeKay Goswami.jpeg"
+  },
+  {
+    "name": "Yi Zhu",
+    "affiliation": "MS student at UB's Robotics Program",
+    "role": "Research Assistant",
+    "duration": "Feb 2025 – Present",
+    "sortDate": "2026-03",
+    "work": "Developed a 3D Gaussian Splatting-based digital twin of real-world environments to enable SIL testing in simulation",
+    "current": "Software Engineer at iDrive Inc. contributing to Level 4 robotaxi systems (Control algorithms, MPC, and OCP solvers)",
+    "impact": "Experience at CAVAS provided deep exposure to perception and control stacks, aligning research work with industry-standard autonomous vehicle development.",
+    "linkedin": "https://www.linkedin.com/in/yi-zhu-a930b6196/",
+    "image": "/images/photo_new - YI ZHU.jpg"
   }
 ]

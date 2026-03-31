@@ -4,6 +4,10 @@ import AlumniCard from "../../components/AlumniCard";
 import alumniData from "../../data/alumni.json";
 
 export default function AlumniPage() {
+  const sortedAlumni = [...alumniData].sort((a, b) =>
+    b.sortDate.localeCompare(a.sortDate)
+  );
+
   return (
     <div className="min-h-screen bg-white px-6 py-16 flex flex-col items-center justify-start">
       
@@ -13,35 +17,20 @@ export default function AlumniPage() {
         CAVAS Labs Alumni
       </h1>
       <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-        Discover where our alumni are today - across industry, researchand academia.
+        Discover where our alumni are today - across industry, research, and academia.
       </p>
     </div>
 
-    <div className="flex justify-center mb-12">
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeqpWM3NlOJtaHIlLpJ0U34o-wIQK0kVtHiKI1Uh64uL7YyWw/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-6 py-3 rounded-lg bg-black text-white text-sm font-medium hover:bg-gray-800 transition"
-      >
-        Submit Your Profile
-      </a>
-    </div>
-
-    <p className="text-xs text-gray-500 mt-2 text-center">
-      Submissions are reviewed before being published.
-    </p>
-
-      {alumniData.length === 0 && (
+      {sortedAlumni.length === 0 && (
         <p className="text-center text-gray-500 mb-6">
           Alumni data will appear here soon.
         </p>
       )}
 
       {/* Grid Section */}
-      <div className="max-w-5xl mx-auto mt-10 px-4">
+      <div className="max-w-5xl mx-auto mt-8 px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {alumniData.map((alumni, index) => (
+          {sortedAlumni.map((alumni, index) => (
             <AlumniCard key={index} alumni={alumni} />
           ))}
         </div>
