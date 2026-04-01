@@ -82,5 +82,17 @@
     "impact": "The CAVAS experience helped me find my research interests and build a foundation for my academic career.",
     "linkedin": "https://www.linkedin.com/in/yi-zhu-a930b6196/",
     "image": "/images/photo_new - YI ZHU.jpg"
-  }
+  },
+  {
+  "name": "Junghwan Yim (Jacob)",
+  "affiliation": "MS Student",
+  "role": "Research Assistant",
+  "duration": "Feb 2021 – Oct 2023",
+  "sortDate": "2023-10",
+  "work": "Worked on Autoware and Lincoln platform integration",
+  "current": "PhD student at Georgia Tech focusing on AI with Digital Twin",
+  "impact": "CAVAS experience was a key step in understanding connected car and autonomous driving systems. It helped build the foundation for work related to Hyundai and Genesis vehicle ADAS and navigation development, as well as manufacturing logistics automation for Ford and SK.",
+  "linkedin": "https://www.linkedin.com/in/junghwanyim",
+  "image": "/images/IMG_5503 - Junghwan Yim.jpeg"
+}
 ]
