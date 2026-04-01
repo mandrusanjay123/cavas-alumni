@@ -17,7 +17,7 @@ export default function AlumniPage() {
         CAVAS Labs Alumni
       </h1>
       <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-        Discover where our alumni are today - across industry, research, and academia.
+        Discover where our alumni are today - across industry, research and academia.
       </p>
     </div>
 
